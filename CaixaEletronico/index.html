@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+
+        h1 {
+            border-bottom-style: inset;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="ex4_6.jpg" alt="desenho de um caixa eletrônico">
+
+    <main class="formulario">
+        <h1>Programa Caixa Eletrônico</h1>
+
+        <form>
+            <p>Valor do Saque:
+                <input type="number" id="valor" min="10" required>
+            </p>
+            <input type="submit" value="Exibir Notas para Saque">
+        </form>
+
+        <h3 id="resposta1"></h3>
+        <h3 id="resposta2"></h3>
+        <h3 id="resposta3"></h3>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+        }
+
+        div img {
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div>
+            <img src="ex4_2.jpg" alt="imagem de uma balança de peso">
+        </div>
+
+        <form>
+            <h1><strong>Programa Cálculo do Peso Ideal</strong></h1>
+            <p>Nome:
+                <input type="text" id="nome" required>
+            </p>
+            <p>Sexo:
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="feminino">
+
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="masculino">
+            </p>
+            <p>Altura:
+                <input type="number" id="altura" min="0" step="0.01" required>
+            </p>
+            <input type="submit" value="Calcular Peso Ideal">
+            <input type="reset" value="Limpar Campos">
+
+            <h2></h2>
+        </form>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

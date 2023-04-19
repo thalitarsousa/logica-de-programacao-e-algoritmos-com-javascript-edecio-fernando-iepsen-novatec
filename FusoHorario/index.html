@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+
+        h1 {
+            border-bottom-style: inset;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="ex4_4.jpg" alt="desenho representando fuso horário">
+
+    <main class="formulario">
+        <h1>Programa Fuso Horário</h1>
+
+        <form>
+            <p>Hora no Brasil (h.m):
+                <input type="number" id="horaBrasil" min="0" max="23.59" step="0.01" required>
+            </p>
+            <input type="submit" value="Exibir Hora na França">
+        </form>
+
+        <h2></h2>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
